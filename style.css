@@ -47,7 +47,7 @@ section{
 }
 .img-2{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 5%%;
 }
 .img-2 img{
     width: 80%;
@@ -55,7 +55,6 @@ section{
 .dream-big{
     background-image: url(./images/PngItem_216766.png);
     background-repeat: no-repeat;
-    background-position: ;
     background-size: 100%;
 }
 .dream-big .img-2 h1{
@@ -64,3 +63,45 @@ section{
 .dream-or{
     color: orange;
 }
+.flexible{
+    display: flex;
+    padding-left: 5%; 
+}
+.flexible h1{
+    font-size: 50px;
+}
+.experience{
+    background-image: url(./images/24144-6-vector-file.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: bottom;
+}
+
+.experience h1{
+    font-size: 50px;
+}
+.right{
+    padding-right: 5%;
+    box-shadow: 10px 10px 40px black;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+}
+.right p{
+    color: white;
+}
+#left{
+    border-left: solid 10px;
+    border-image: linear-gradient( blue, cyan);
+    border-image-slice: 1;
+}
+#right{
+    border-left: solid 10px;
+    border-image: linear-gradient( orange, rgba(255, 0, 43, 0.568));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+
